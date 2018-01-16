@@ -10,7 +10,7 @@ function johnLennonFacts(facts) {
   let i = 0
   var newArray = [];
   while (i < facts.length) {
-    newArray = newArray[i] +"!!!"
+    newArray[i] = newArray[i] +"!!!"
     ++i;
   }
   return newArray;
