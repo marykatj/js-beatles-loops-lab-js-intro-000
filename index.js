@@ -25,10 +25,10 @@ function iLoveTheBeatles(number) {
   var empty = [];
   var newArray = [];
   do {
-    empty.push("I love the Beatles!");
+    newArray.push("I love the Beatles!");
     number++;
   } while (number < 15);
-return string;
+return newArray;
 }
 
 /* function theBeatlesPlay(musician, instrument) {
