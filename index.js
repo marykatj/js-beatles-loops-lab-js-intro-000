@@ -4,7 +4,7 @@ function theBeatlesPlay(musician, instrument) {
   for (let i = 0; i < 4; i++) {
       newArray = [...empty,`${musician} plays ${instrument}.`];
     }
-    return newArray;
+  return newArray;
 }
 
 const facts = [];
