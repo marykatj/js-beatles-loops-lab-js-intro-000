@@ -1,8 +1,10 @@
 function theBeatlesPlay(musician, instrument) {
   var empty = [];
-  for (let i = 0; i < 4; i) {
-     return empty.push(`${musician} plays ${instrument}.`);
+  var newArray = [];
+  for (let i = 0; i < 4; i++) {
+      newArray = empty.push(`${musician} plays ${instrument}.`);
     }
+    return newArray;
 }
 
 const facts = [];
