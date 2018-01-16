@@ -9,7 +9,8 @@ const facts = [];
 function johnLennonFacts(facts) {
   let i = 0
   while (i < facts.length) {
+    newArray = facts[i] +"!!!"
     ++i;
-    return facts[i] +"!!!"
   }
+  return newArray;
 }
