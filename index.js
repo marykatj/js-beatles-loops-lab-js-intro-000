@@ -2,7 +2,7 @@ function theBeatlesPlay(musician, instrument) {
   var empty = [];
   var newArray = [];
   for (let i = 0; i < 4; i++) {
-      newArray = empty.push(`${musician} plays ${instrument}.`);
+      newArray = [...empty,`${musician} plays ${instrument}.`];
     }
     return newArray;
 }
@@ -26,3 +26,12 @@ function iLoveTheBeatles(number) {
     return string;
   } while (number < 15);
 }
+
+/* function theBeatlesPlay(musician, instrument) {
+  var empty = [];
+  var newArray = [];
+  for (let i = 0; i < 4; i++) {
+      newArray = empty.push(`${musician} plays ${instrument}.`);
+    }
+    return newArray;
+} */
