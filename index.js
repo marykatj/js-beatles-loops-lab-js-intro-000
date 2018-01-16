@@ -4,3 +4,9 @@ function theBeatlesPlay(musician, instrument) {
      return empty.push(`${musician} plays ${instrument}.`);
     }
 }
+
+const facts = [];
+function johnLennonFacts(facts) {
+  while (facts > 0)
+  console.log("!!!");
+}
