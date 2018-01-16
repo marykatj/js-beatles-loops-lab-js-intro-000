@@ -8,9 +8,9 @@ function theBeatlesPlay(musician, instrument) {
 const facts = [];
 function johnLennonFacts(facts) {
   let i = 0
-  var emptyArray = [];
+  var newArray = [];
   while (i < facts.length) {
-    emptyArray[i] = newArray[i] +"!!!"
+    facts[i] = newArray[i] +"!!!"
     ++i;
   }
   return newArray;
