@@ -23,11 +23,12 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   var empty = [];
-  var string = "I love the Beatles!";
+  var newArray = [];
   do {
     number++
-    return string;
+    empty.push("I love the Beatles!");
   } while (number < 15);
+return string;
 }
 
 /* function theBeatlesPlay(musician, instrument) {
