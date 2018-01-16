@@ -1,8 +1,10 @@
-function theBeatlesPlay(musician, instrument) {
+function theBeatlesPlay(musicians, instruments) {
   var empty = [];
   var newArray = [];
+  const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+  const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
   for (let i = 0; i < 4; i++) {
-      newArray = [...empty,`${musician} plays ${instrument}.`];
+      newArray = [...empty,`${musicians} plays ${instruments}.`];
     }
   return newArray;
 }
