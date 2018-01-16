@@ -4,8 +4,8 @@ const instruments = [];
 function theBeatlesPlay(musicians, instruments) {
   var empty = [];
   var newArray = [];
-  for (let i = 0; i < 4; i++) {
-      newArray = [...empty,`${musicians} plays ${instruments}.`];
+  for (let i = 0; i < musicians.length; ++i) {
+      newArray.push(`${musicians} plays ${instruments}.`);
     }
   return newArray;
 }
